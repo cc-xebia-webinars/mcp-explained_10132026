@@ -1,0 +1,12 @@
+{
+	"servers": {
+		"service-catalog": {
+			"type": "stdio",
+			"command": "uv",
+			"args": [
+				"run",
+				"server.py"
+			]
+		}
+	}
+}

@@ -1,0 +1,6 @@
+[project]
+name = "meet-mcp"
+version = "1.0.0"
+description = "The MCP lifecycle in raw JSON-RPC, and three ready-made MCP servers in Copilot."
+requires-python = ">=3.14"
+dependencies = ["mcp==2.3.0"]

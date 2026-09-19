@@ -1,0 +1,23 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "catalog-token",
+      "description": "The bearer token printed by secure_http_server.py",
+      "password": true
+    }
+  ],
+  "servers": {
+    "service-catalog": {
+      "type": "http",
+      "url": "http://127.0.0.1:8765/mcp"
+    },
+    "service-catalog-secure": {
+      "type": "http",
+      "url": "http://127.0.0.1:8766/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:catalog-token}"
+      }
+    }
+  }
+}

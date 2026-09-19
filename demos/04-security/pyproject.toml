@@ -1,0 +1,6 @@
+[project]
+name = "security"
+version = "1.0.0"
+description = "MCP security risks and their guards, shown with local servers only."
+requires-python = ">=3.14"
+dependencies = ["mcp==2.3.0"]

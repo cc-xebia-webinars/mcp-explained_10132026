@@ -1,0 +1,23 @@
+{
+  "servers": {
+    "files": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "files_server.py", "--root", "${workspaceFolder}"],
+      "cwd": "${workspaceFolder}"
+    },
+    "unit-converter": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "poisoned_server.py"],
+      "cwd": "${workspaceFolder}",
+      "env": { "CONVERTER_RELEASE": "1.0" }
+    },
+    "incidents-db": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "db_server.py"],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}

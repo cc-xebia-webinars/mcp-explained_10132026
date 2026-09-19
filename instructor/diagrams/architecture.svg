@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:db="https://cloudcontraptions.com/ns/diagram-builder/1" width="1008pt" height="612pt" viewBox="0 0 1008 612" db:version="1">
+<metadata>
+<db:model version="1" generator="diagram-builder 0.1.0" body-hash="369847b18d7502ce"><![CDATA[
+{
+  "version": 1,
+  "title": "MCP hosts, clients, and servers",
+  "page": {
+    "width": 1008.0,
+    "height": 612.0,
+    "margin": 36.0,
+    "background": "#ffffff"
+  },
+  "elements": [
+    {
+      "type": "shape",
+      "id": "host",
+      "kind": "rect",
+      "x": 40.0,
+      "y": 56.0,
+      "w": 450.0,
+      "h": 446.0,
+      "style": {
+        "fill": "none",
+        "stroke": "#6b1d5e",
+        "stroke_width": 2.5,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 14.0,
+        "font": null,
+        "font_size": null,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "host_title",
+      "x": 68.0,
+      "y": 76.0,
+      "text": "Host",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 26.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#6b1d5e",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "host_sub",
+      "x": 68.0,
+      "y": 112.0,
+      "text": "VS Code with GitHub Copilot",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 18.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#4a1e47",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "model",
+      "kind": "rect",
+      "x": 68.0,
+      "y": 266.0,
+      "w": 170.0,
+      "h": 90.0,
+      "text": "Chat and\nAI model",
+      "style": {
+        "fill": "#4a1e47",
+        "stroke": "#4a1e47",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 19.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#ffffff",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "c1",
+      "kind": "rect",
+      "x": 290.0,
+      "y": 166.0,
+      "w": 160.0,
+      "h": 70.0,
+      "text": "Client",
+      "style": {
+        "fill": "#6b1d5e",
+        "stroke": "#6b1d5e",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 19.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#ffffff",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "c2",
+      "kind": "rect",
+      "x": 290.0,
+      "y": 276.0,
+      "w": 160.0,
+      "h": 70.0,
+      "text": "Client",
+      "style": {
+        "fill": "#6b1d5e",
+        "stroke": "#6b1d5e",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 19.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#ffffff",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "c3",
+      "kind": "rect",
+      "x": 290.0,
+      "y": 386.0,
+      "w": 160.0,
+      "h": 70.0,
+      "text": "Client",
+      "style": {
+        "fill": "#6b1d5e",
+        "stroke": "#6b1d5e",
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 19.0,
+        "font_weight": 700,
+        "italic": null,
+        "text_color": "#ffffff",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s1",
+      "kind": "rect",
+      "x": 680.0,
+      "y": 161.0,
+      "w": 290.0,
+      "h": 80.0,
+      "text": "Filesystem server\nlocal process",
+      "style": {
+        "fill": "#ffffff",
+        "stroke": "#6b1d5e",
+        "stroke_width": 2.0,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 18.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#4a1e47",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s2",
+      "kind": "rect",
+      "x": 680.0,
+      "y": 271.0,
+      "w": 290.0,
+      "h": 80.0,
+      "text": "Service catalog server\nlocal process",
+      "style": {
+        "fill": "#ffffff",
+        "stroke": "#6b1d5e",
+        "stroke_width": 2.0,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 18.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#4a1e47",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "shape",
+      "id": "s3",
+      "kind": "rect",
+      "x": 680.0,
+      "y": 381.0,
+      "w": 290.0,
+      "h": 80.0,
+      "text": "GitHub server\nremote service",
+      "style": {
+        "fill": "#ece8f3",
+        "stroke": "#6b1d5e",
+        "stroke_width": 2.0,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": 10.0,
+        "font": null,
+        "font_size": 18.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#4a1e47",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "conn1",
+      "from": "model",
+      "to": "c1",
+      "from_side": "right",
+      "to_side": "left",
+      "style": {
+        "fill": null,
+        "stroke": "#6b1d5e",
+        "stroke_width": 2.0,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": null,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "conn2",
+      "from": "model",
+      "to": "c2",
+      "from_side": "right",
+      "to_side": "left",
+      "style": {
+        "fill": null,
+        "stroke": "#6b1d5e",
+        "stroke_width": 2.0,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": null,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "conn3",
+      "from": "model",
+      "to": "c3",
+      "from_side": "right",
+      "to_side": "left",
+      "style": {
+        "fill": null,
+        "stroke": "#6b1d5e",
+        "stroke_width": 2.0,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": null,
+        "font_weight": null,
+        "italic": null,
+        "text_color": null,
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "conn4",
+      "from": "c1",
+      "to": "s1",
+      "route": "straight",
+      "start_arrow": "arrow",
+      "label": "stdio",
+      "style": {
+        "fill": null,
+        "stroke": "#6b1d5e",
+        "stroke_width": 2.0,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 16.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#4a1e47",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "conn5",
+      "from": "c2",
+      "to": "s2",
+      "route": "straight",
+      "start_arrow": "arrow",
+      "label": "stdio",
+      "style": {
+        "fill": null,
+        "stroke": "#6b1d5e",
+        "stroke_width": 2.0,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 16.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#4a1e47",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "connector",
+      "id": "conn6",
+      "from": "c3",
+      "to": "s3",
+      "route": "straight",
+      "start_arrow": "arrow",
+      "label": "Streamable HTTP",
+      "style": {
+        "fill": null,
+        "stroke": "#6b1d5e",
+        "stroke_width": 2.0,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 16.0,
+        "font_weight": null,
+        "italic": null,
+        "text_color": "#4a1e47",
+        "align": null,
+        "padding": null
+      }
+    },
+    {
+      "type": "label",
+      "id": "caption",
+      "x": 40.0,
+      "y": 520.0,
+      "text": "One client per server. Servers never see the model or each other.",
+      "style": {
+        "fill": null,
+        "stroke": null,
+        "stroke_width": null,
+        "dash": null,
+        "opacity": null,
+        "corner_radius": null,
+        "font": null,
+        "font_size": 17.0,
+        "font_weight": null,
+        "italic": true,
+        "text_color": "#4a1e47",
+        "align": null,
+        "padding": null
+      }
+    }
+  ],
+  "next_id": {
+    "conn": 6
+  }
+}
+]]></db:model>
+</metadata>
+<!-- GENERATED BY diagram-builder. The <metadata> block above is the source of truth.
+       Edits made below this line are DISCARDED on the next diagram-builder command. -->
+<g id="db-body">
+<rect x="0" y="0" width="1008" height="612" fill="#ffffff"/>
+<g id="conn1"><path d="M238 311L264 311L264 201L278 201" fill="none" stroke="#6b1d5e" stroke-width="2"/><path d="M290 201L276.67 206.33L276.67 195.67Z" fill="#6b1d5e"/></g>
+<g id="conn2"><path d="M238 311L278 311" fill="none" stroke="#6b1d5e" stroke-width="2"/><path d="M290 311L276.67 316.33L276.67 305.67Z" fill="#6b1d5e"/></g>
+<g id="conn3"><path d="M238 311L264 311L264 421L278 421" fill="none" stroke="#6b1d5e" stroke-width="2"/><path d="M290 421L276.67 426.33L276.67 415.67Z" fill="#6b1d5e"/></g>
+<g id="conn4"><path d="M462 201L668 201" fill="none" stroke="#6b1d5e" stroke-width="2"/><path d="M680 201L666.67 206.33L666.67 195.67Z" fill="#6b1d5e"/><path d="M450 201L463.33 195.67L463.33 206.33Z" fill="#6b1d5e"/><rect x="544.26" y="189.5" width="41.47" height="23" rx="2" fill="#ffffff"/><text x="565" y="207" font-family="IBM Plex Sans" font-size="16" fill="#4a1e47" text-anchor="middle"><tspan x="565" dy="0">stdio</tspan></text></g>
+<g id="conn5"><path d="M462 311L668 311" fill="none" stroke="#6b1d5e" stroke-width="2"/><path d="M680 311L666.67 316.33L666.67 305.67Z" fill="#6b1d5e"/><path d="M450 311L463.33 305.67L463.33 316.33Z" fill="#6b1d5e"/><rect x="544.26" y="299.5" width="41.47" height="23" rx="2" fill="#ffffff"/><text x="565" y="317" font-family="IBM Plex Sans" font-size="16" fill="#4a1e47" text-anchor="middle"><tspan x="565" dy="0">stdio</tspan></text></g>
+<g id="conn6"><path d="M462 421L668 421" fill="none" stroke="#6b1d5e" stroke-width="2"/><path d="M680 421L666.67 426.33L666.67 415.67Z" fill="#6b1d5e"/><path d="M450 421L463.33 415.67L463.33 426.33Z" fill="#6b1d5e"/><rect x="498.79" y="409.5" width="132.42" height="23" rx="2" fill="#ffffff"/><text x="565" y="427" font-family="IBM Plex Sans" font-size="16" fill="#4a1e47" text-anchor="middle"><tspan x="565" dy="0">Streamable HTTP</tspan></text></g>
+<g id="host"><path d="M54 56H476A14 14 0 0 1 490 70V488A14 14 0 0 1 476 502H54A14 14 0 0 1 40 488V70A14 14 0 0 1 54 56Z" fill="none" stroke="#6b1d5e" stroke-width="2.5"/></g>
+<g id="host_title"><text x="96.17" y="102" font-family="IBM Plex Sans" font-size="26" font-weight="700" fill="#6b1d5e" text-anchor="middle"><tspan x="96.17" dy="0">Host</tspan></text></g>
+<g id="host_sub"><text x="182.44" y="130" font-family="IBM Plex Sans" font-size="18" fill="#4a1e47" text-anchor="middle"><tspan x="182.44" dy="0">VS Code with GitHub Copilot</tspan></text></g>
+<g id="model"><path d="M78 266H228A10 10 0 0 1 238 276V346A10 10 0 0 1 228 356H78A10 10 0 0 1 68 346V276A10 10 0 0 1 78 266Z" fill="#4a1e47" stroke="#4a1e47" stroke-width="1.5"/><text x="153" y="306.25" font-family="IBM Plex Sans" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle"><tspan x="153" dy="0">Chat and</tspan><tspan x="153" dy="23.75">AI model</tspan></text></g>
+<g id="c1"><path d="M300 166H440A10 10 0 0 1 450 176V226A10 10 0 0 1 440 236H300A10 10 0 0 1 290 226V176A10 10 0 0 1 300 166Z" fill="#6b1d5e" stroke="#6b1d5e" stroke-width="1.5"/><text x="370" y="208.13" font-family="IBM Plex Sans" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle"><tspan x="370" dy="0">Client</tspan></text></g>
+<g id="c2"><path d="M300 276H440A10 10 0 0 1 450 286V336A10 10 0 0 1 440 346H300A10 10 0 0 1 290 336V286A10 10 0 0 1 300 276Z" fill="#6b1d5e" stroke="#6b1d5e" stroke-width="1.5"/><text x="370" y="318.13" font-family="IBM Plex Sans" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle"><tspan x="370" dy="0">Client</tspan></text></g>
+<g id="c3"><path d="M300 386H440A10 10 0 0 1 450 396V446A10 10 0 0 1 440 456H300A10 10 0 0 1 290 446V396A10 10 0 0 1 300 386Z" fill="#6b1d5e" stroke="#6b1d5e" stroke-width="1.5"/><text x="370" y="428.13" font-family="IBM Plex Sans" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle"><tspan x="370" dy="0">Client</tspan></text></g>
+<g id="s1"><path d="M690 161H960A10 10 0 0 1 970 171V231A10 10 0 0 1 960 241H690A10 10 0 0 1 680 231V171A10 10 0 0 1 690 161Z" fill="#ffffff" stroke="#6b1d5e" stroke-width="2"/><text x="825" y="196.5" font-family="IBM Plex Sans" font-size="18" fill="#4a1e47" text-anchor="middle"><tspan x="825" dy="0">Filesystem server</tspan><tspan x="825" dy="22.5">local process</tspan></text></g>
+<g id="s2"><path d="M690 271H960A10 10 0 0 1 970 281V341A10 10 0 0 1 960 351H690A10 10 0 0 1 680 341V281A10 10 0 0 1 690 271Z" fill="#ffffff" stroke="#6b1d5e" stroke-width="2"/><text x="825" y="306.5" font-family="IBM Plex Sans" font-size="18" fill="#4a1e47" text-anchor="middle"><tspan x="825" dy="0">Service catalog server</tspan><tspan x="825" dy="22.5">local process</tspan></text></g>
+<g id="s3"><path d="M690 381H960A10 10 0 0 1 970 391V451A10 10 0 0 1 960 461H690A10 10 0 0 1 680 451V391A10 10 0 0 1 690 381Z" fill="#ece8f3" stroke="#6b1d5e" stroke-width="2"/><text x="825" y="416.5" font-family="IBM Plex Sans" font-size="18" fill="#4a1e47" text-anchor="middle"><tspan x="825" dy="0">GitHub server</tspan><tspan x="825" dy="22.5">remote service</tspan></text></g>
+<g id="caption"><text x="278.43" y="537" font-family="IBM Plex Sans" font-size="17" font-style="italic" fill="#4a1e47" text-anchor="middle"><tspan x="278.43" dy="0">One client per server. Servers never see the model or each other.</tspan></text></g>
+</g>
+</svg>

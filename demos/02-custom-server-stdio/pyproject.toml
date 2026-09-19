@@ -1,0 +1,6 @@
+[project]
+name = "custom-server-stdio"
+version = "1.0.0"
+description = "A custom MCP server over stdio that exposes a SQLite service catalog."
+requires-python = ">=3.14"
+dependencies = ["mcp==2.3.0"]
